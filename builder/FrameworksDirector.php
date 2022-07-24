@@ -8,7 +8,7 @@ class FrameworksDirector
     private $builder;
     private $json;
 
-    public function __construct(FrameworksBuilder $builder, $json)
+    public function __construct(FrameworksBuilderInterface $builder, $json)
     {
         $this->builder = $builder;
         $this->json = $json;

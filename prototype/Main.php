@@ -1,7 +1,9 @@
 <?php
 
+require 'MenuPrototype.php';
 require 'MenuManager.php';
 require 'DeepCopyMenu.php';
+require 'ShallowCopyMenu.php';
 
 // メニューマネージャーのインスタンス化
 $manager = new MenuManager();

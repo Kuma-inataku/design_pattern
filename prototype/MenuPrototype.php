@@ -81,7 +81,7 @@ abstract class MenuPrototype
 
     private function getHtmlList($value)
     {
-        return sprintf('<li>%s</li>');
+        return sprintf('<li>%s</li>', $value);
     }
 
     public function newInstance()

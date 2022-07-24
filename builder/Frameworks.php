@@ -1,5 +1,5 @@
 <?php
-namespace App\Frameworks;
+// namespace App\Frameworks;
 
 class Frameworks {
     private $id;

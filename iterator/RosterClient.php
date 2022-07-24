@@ -15,8 +15,8 @@ class RosterClient
     {
         while ($this->userIterator->hasNext()) {
             $user = $this->userIterator->next();
-            var_dump($user);
-            echo sprintf('%s', $user);
+            // echo sprintf('%s', $user);
+            echo sprintf("%s (%s)", $user['name'], $user['age']);
             echo '<br>';
         }
     }

@@ -3,7 +3,12 @@
 require('RosterClient.php');
 require('UsersAggregate.php');
 
-$users = [ "name 01", "name 02", "name 03", "name 04", "name 05" ];
+$users = [
+    ["name" => "name 01", "age" => 20],
+    ["name" => "name 02", "age" => 21],
+    ["name" => "name 03", "age" => 22],
+    ["name" => "name 04", "age" => 23]
+];
 $list = new RosterClient(new UsersAggregate($users));
 
 echo $list->getUsers();

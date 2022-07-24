@@ -1,5 +1,7 @@
 <?php
 
+require('UserListIteratorInterface.php');
+
 class UserListIterator implements UserListIteratorInterface
 {
     private $users;

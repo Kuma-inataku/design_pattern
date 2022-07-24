@@ -1,5 +1,8 @@
 <?php
 
+// require('UsersAggregateInterface.php');
+require('UserListIterator.php');
+
 class UsersAggregate implements UsersAggregateInterface
 {
     private $userList;

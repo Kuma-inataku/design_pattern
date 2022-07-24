@@ -1,10 +1,5 @@
 <?php
 
-namespace App\Prototype\Manager;
-
-use App\Prototype\MenuPrototype;
-use Exception;
-
 class MenuManager
 {
     private $menus;

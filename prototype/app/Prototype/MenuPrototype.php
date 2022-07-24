@@ -1,7 +1,5 @@
 <?php
 
-namespace App\Prototype;
-
 abstract class MenuPrototype
 {
     private $menu_code;

@@ -1,8 +1,5 @@
 <?php
-
-namespace App\Prototype\Concretes;
-
-use App\Prototype\MenuPrototype;
+require('../MenuPrototype.php');
 
 class ShallowCopyMenu extends MenuPrototype
 {

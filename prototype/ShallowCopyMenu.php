@@ -1,5 +1,5 @@
 <?php
-require('../MenuPrototype.php');
+require('MenuPrototype.php');
 
 class ShallowCopyMenu extends MenuPrototype
 {

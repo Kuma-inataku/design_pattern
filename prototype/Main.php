@@ -1,8 +1,22 @@
 <?php
 
-require 'app/Prototype/Manager/MenuManager.php';
+require 'MenuManager.php';
+require 'DeepCopyMenu.php';
 
+// メニューマネージャーのインスタンス化
 $manager = new MenuManager();
 
-var_dump($manager);
+// ディープコピーインスタンス
+$menu = new DeepCopyMenu('P001', 'ボロネーゼ', 1350, 'pasta');
+$comments = new \stdClass();
+$comments->comment[] = [
+    'date' => '2018-06-23',
+    'comment' => 'イタリアのトマトたっぷり。'
+];
+$comments->comment[] = [
+    'date' => '2018-06-25',
+    'comment' => '大盛無料です。'
+];
+
+var_dump($comments);
 exit;

@@ -6,7 +6,7 @@ class Roster
 
     public function setUserList($user)
     {
-        $this->userList = $user;
+        $this->userList[] = $user;
     }
 
     public function getUserList()

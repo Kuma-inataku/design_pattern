@@ -1,6 +1,6 @@
 <?php
 
-require 'DataSource.php';
+require_once 'DataSource.php';
 
 class FileDataSource implements DataSource
 {

@@ -21,7 +21,7 @@ class ReadFixedLengthDataStrategy extends ReadItemDataStrategy
             $obj->item_name = $item_name;
             $obj->item_code = $item_code;
             $obj->price = $price;
-            $obj->release_date = mktime(0, 0, 0, substr($release_date, 4, 2), substr($release_date, 6, 2), substr($release_date, 0, 4));
+            $obj->release_date = mktime(0, 0, 0, (int) substr($release_date, 4, 2), (int)substr($release_date, 6, 2), (int)substr($release_date, 0, 4));
             $return_value[] = $obj;
         }
 

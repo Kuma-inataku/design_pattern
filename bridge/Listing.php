@@ -15,8 +15,8 @@ class Listing
         $this->data_source->open();
     }
 
-    public function read() {
-        $this->data_source->read();
+    public function read() :string {
+        return $this->data_source->read();
     }
 
     public function close() {
